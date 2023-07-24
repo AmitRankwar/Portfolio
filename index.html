@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit portfolio</title>
+    <link rel="stylesheet" href="sytle.css">
+    <script src="https://kit.fontawesome.com/4f26737335.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Lamit.png">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a> </li>
+                    <li><a href="#about">About Me</a> </li>
+                    <li><a href="#services">My Work</a> </li>
+                    <li><a href="#contact">Contact Me</a> </li>
+                    <i class="fas fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Aspirant </p>
+                <h1>Hello! Myself <span> Amit Rankwar</span> <br> from Mathura</h1>
+
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutSECTION.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello visitor! I'm Amit Chaudhary Rankwar<br>A hardworking and passionate job seeker in domain of web development who had a great sense of responsibility and orgsnizational skill other than that i'm a good team player and highly determined person. My future goals are to became more skilled and resposible. <br> This my portfolio website created using frontend web technologies like HTML , CSS and JavaScript. It is a responsive website and has a working form which is used send responses to me and have different sections like home , about me, my works and contact me this links to my different platform's account. </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links"  onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('extracurricular')">Extra curricular</p>
+                </div>
+                <div class="tab-content active-tab" id="education">
+                    <ul>
+                        <li><span>2020-2024</span><br>Bachelor of Technology<br>Kamla Nehru Institute of Technology, Sultanpur</li>
+                        <li><span>2019-2020</span><br>Intermidate<br>Army School Mathura Cantt</li>
+                        <li><span>2017-2018</span><br>High School<br>Army School Mathura Cantt</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="skills">
+                    <ul>
+                        
+                        <li><span>frontend development</span><br>HTML <br> CSS <br> JavaScript<br> Bootstrap</li>
+                        <li><span>Backend development</span><br>Node.js <br>Express.js <br> API's <br> MongoDB <br>SQL <br>Authentication</li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="tab-content" id="extracurricular">
+                    <ul>
+                        <li><span>Disciplinary Committee Head</span><br>Army School Mathura Cantt(2019-2020)</li>
+                        <li><span>Assistant Treasurer</span><br>The Institution of Engineers<br>Students Chapter,KNIT Sultanpur</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="services-list">
+            <div>
+                <i class="fa-solid fa-list"></i>
+                <h2>To-Do-List</h2>
+                <p>A to do list created using HTML,Bootstrap and javascript and having a database which is used to store daily task </p>
+                <a href="https://github.com/AmitRankwar/todolist" >Learn More</a> 
+            </div>
+            <div>
+                <i class="fa-solid fa-book"></i>
+                <h2>Daily Diary</h2>
+                <p>A daily diary  which act as a vlog posting website where one can post his ideas and can use it as a personal diary </p>
+                <a href="https://github.com/AmitRankwar/DailyDiary-" >Learn More</a> 
+            </div>
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <h2>OAuth-2.0</h2>
+                <p>authetication protocol OAuth 2.0 i.e “Open Authorization”, is a standard designed to allow a website or application to access resources hosted by other web apps on behalf of a user </p>
+                <a href="https://github.com/AmitRankwar/Authentication-using-OAuth-2.0" >Learn More</a> 
+            </div>
+            <div>
+                <i class="fa-solid fa-key"></i>
+                <h2>Rest-API's </h2>
+                <p> APIs that follow the REST architectural style are called REST APIs.REST is an architectural styles for designing API's </p>
+                <a href="https://github.com/AmitRankwar/RESTful-API" >Learn More</a> 
+            </div>
+            <div>
+                <i class="fa-solid fa-drum"></i>
+                <h2>Drum Kit </h2>
+                <p>It is just a  game created with the help of HTML , CSS and JavaScript </p>
+                <a href="https://github.com/AmitRankwar/Drumfirst" >Learn More</a> 
+            </div>
+        </div>
+        </div>
+    </div>
+    <!---------------------------------------------------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-envelope"></i> msrankwar593@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone-volume"></i> 8630383690 </p>
+                    <div class="social-icon">
+                        <a href="https://github.com/AmitRankwar"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/amit.rankwar/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message for Me" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Amit Chaudhary 2023</p> 
+        </div>
+    </div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-content");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+        
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwxY37SgDmd7usQcGDhORhLUXdBXw4U8yArsLjzHXMANeOXs0bkwGr4l2f4JF7Bcv9r/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
